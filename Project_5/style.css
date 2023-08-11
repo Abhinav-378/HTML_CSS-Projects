@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111e3b;
+    color: white;
+}
+
+#navUl{
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+nav li{
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px ;
+}
+#hamIcon{
+    display: none;
+    position: absolute;
+    top:30px;
+    left:30px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#closeIcon{
+    display: none;
+    position: fixed;
+    top:30px;
+    right:30px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.hero{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin:50px auto;
+    justify-content: space-between;
+}
+#heroTop{
+    width: 35%;
+    padding-top: 50px;
+    min-height: 100%;
+    margin: auto;
+}
+.mainImg{
+    width: 60%;
+    margin: auto;
+}
+.subImg{
+    display: flex;
+    flex-direction: row;
+}
+.subImg div{
+    width:100%;
+    margin: 10px;
+}
+.subImg div img{
+    width:100%;
+}
+#footer{
+    text-align: center;
+}
+#footer img{
+    width: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width:768px){
+    #navUl{
+        display:none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #000001;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+    #hamIcon{
+        display: block;
+    }
+    #closeIcon{
+        display: none;
+        z-index: 1000;
+        
+        background-color: #000001;
+    }
+    #navUl.show {
+        display: flex;
+    }
+    .hero{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    #heroTop{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subImg{
+        flex-direction: column;
+    }
+}
