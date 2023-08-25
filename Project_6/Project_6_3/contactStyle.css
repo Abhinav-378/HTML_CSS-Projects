@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover,a:active{
+    color: black;
+}
+.active{
+    color:rgb(46, 179, 134);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+nav li{
+    padding: 20px 20px;
+    cursor: pointer;
+}
+#contactForm{
+    
+    box-shadow: 0 0 10px 2px #000000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:320px;
+    
+    margin: 100px auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+label{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+input{
+    margin-top: 10px;
+    padding: 8px;
+    border: 0;
+    border-radius: 10px;
+}
+#msg{
+    margin-top: 10px;
+    padding: 8px;
+    border: 0;
+    border-radius: 10px;
+}
+#submitBtn{
+    color: white;
+    background-color: rgb(46, 179, 134);
+    border: 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    position: absolute;
+    top:8px;
+  }
+  
+ 
