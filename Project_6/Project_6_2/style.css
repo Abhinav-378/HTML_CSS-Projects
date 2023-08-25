@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.500),rgba(0, 0, 0, 0.600)),url('./Photos/mainBackground.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 120vh;
+    color: white;
+}
+
+nav{
+    
+    width: 85vw;
+    margin: auto;
+    height: 5rem;
+    padding: 45px 0;
+    border-bottom: 1.5px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav li{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    
+}
+
+#heading{
+    margin-top: 100px;
+    margin-left: 128px;
+}
+#heading h1{
+    font-size: 70px;
+    margin-bottom: 24px;
+}
+#heading p{
+    font-size: 18px;
+}
+#heading button{
+    margin: 50px 10px ;
+    padding: 10px 20px;
+    color:white;
+    font-size: 18px;
+    background-color: #6663e9;
+    border: 0;
+    border-radius: 50px;
+}
+#logoBox{
+    position: relative;
+    top:-4rem;
+    width: 80vw;
+    min-height: 8rem;
+    height: fit-content;
+    margin: auto;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    z-index: 100;
+}
+#logoBox img{
+    padding: 40px 32px;
+}
+#cardsBox{
+    background-color: aliceblue;
+    padding: 150px 20px;
+    position: relative;
+    top:-8rem;
+    z-index: 0;
+}
+#cardsBox h1{
+    text-align: center;
+     font-size: 64px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cardImages{
+    height: 400px;
+    width: 350px;
+    border-radius: 25px;
+    margin: 20px 5px 0;
+    background-color: rgb(54, 51, 65);
+}
+.cardBlock{
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    z-index: 100;
+    border-radius: 25px;
+    position: relative;
+    top:-50px;
+    left: 30px;
+    display: flex;
+}
+.cardBlock h2{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:  15px 0 10px 20px;
+}
+.cardBlock h3{
+    font-size: 20px;
+    color: #6663e9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:  0 0 10px 20px;
+}
+.cards button{
+    margin: 25px 0 25px 25px ;
+    padding: 10px 20px;
+    color:white;
+    font-size: 18px;
+    background-color: #6663e9;
+    border: 0;
+    border-radius: 50px;
+}
+#allCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+button{
+    margin: 25px 0 25px 25px ;
+    padding: 10px 20px;
+    color:white;
+    font-size: 18px;
+    background-color: #6663e9;
+    border: 0;
+    border-radius: 50px;
+}
+
+#subBox{
+    width: 90vw;
+    margin: 100px auto;
+    background-color: #6663e9;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    padding: 100px 50px 50px;
+}
+
+#footerList ul{
+    list-style-type: none;
+    margin-left:100px;
+}
+#footerList li{
+    margin-top: 20px;
+    font-size: 18px;
+}
